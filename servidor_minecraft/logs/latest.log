@@ -1,0 +1,47 @@
+[01Jun2026 20:32:10.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.233, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[01Jun2026 20:32:10.084] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
+[01Jun2026 20:32:10.086] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
+[01Jun2026 20:32:10.237] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Jun2026 20:32:10.304] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/Test30-05-2026.8PM/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[01Jun2026 20:32:10.653] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.233:server]
+[01Jun2026 20:32:10.679] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.233-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.233/neoforge-21.1.233-universal.jar]], reader: mod manifest]
+[01Jun2026 20:32:10.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[01Jun2026 20:32:10.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
+[01Jun2026 20:32:10.787] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.233.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
+[01Jun2026 20:32:10.788] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.233 (neoforge)
+[01Jun2026 20:32:11.502] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01Jun2026 20:32:12.719] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[01Jun2026 20:32:18.618] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.233, for MC 1.21.1
+[01Jun2026 20:32:19.007] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Jun2026 20:32:19.130] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test30-05-2026.8PM/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[01Jun2026 20:32:19.131] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Test30-05-2026.8PM/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[01Jun2026 20:32:20.571] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[01Jun2026 20:32:20.782] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[01Jun2026 20:32:21.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[01Jun2026 20:32:21.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jun2026 20:32:21.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jun2026 20:32:21.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jun2026 20:32:21.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jun2026 20:32:21.689] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jun2026 20:32:21.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jun2026 20:32:24.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jun2026 20:32:25.087] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 20:32:25.179] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 382 ms
+[01Jun2026 20:32:25.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.429s)! For help, type "help"
+[01Jun2026 20:32:25.207] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[01Jun2026 20:32:34.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Jun2026 20:32:34.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jun2026 20:32:34.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jun2026 20:32:34.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jun2026 20:32:34.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jun2026 20:32:34.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jun2026 20:32:34.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jun2026 20:32:34.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jun2026 20:32:34.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jun2026 20:32:34.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jun2026 20:32:34.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
